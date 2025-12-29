@@ -1,7 +1,4 @@
-body {
-  background-image: url(./img/tho.jpg);
-  background-size: 25%;
-}
+
 
 h1 {
   /* Màu chữ */
@@ -26,4 +23,25 @@ h2{
     opacity: 10;
     display: none;
     visibility: hidden; /*  Không chọn đc */
+}
+
+/* Tác dụng lên khi di chuột qua */
+/* .hoc_click:hover{
+  color:red
+} */
+
+/* Tác dụng lên khi ấn giữ chuột */
+.hoc_click:active{
+  color:yellow;
+  font-size: 30px;
+}
+
+/* Khi người dùng chưa truy cập vào */
+/* .hoc_click:link{
+  color:brown
+} */
+
+/* Khi người dùng đã truy cập */
+.hoc_click:visited{
+  color:aqua
 }
