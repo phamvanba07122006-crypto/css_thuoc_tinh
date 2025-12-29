@@ -25,6 +25,10 @@ h2{
     visibility: hidden; /*  Không chọn đc */
 }
 
+.Bo_cham_den{
+  list-style:none;
+}
+
 /* Tác dụng lên khi di chuột qua */
 /* .hoc_click:hover{
   color:red
@@ -44,4 +48,17 @@ h2{
 /* Khi người dùng đã truy cập */
 .hoc_click:visited{
   color:aqua
+}
+
+/* Tác dụng khi ko có j ở trong */
+#hoc_empty{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+/* Chuyển đến khi click vào */
+h3:target{
+  color:red;
+  font-size: 30px;
 }
